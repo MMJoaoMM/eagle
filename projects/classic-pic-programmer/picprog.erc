@@ -1,0 +1,23 @@
+EAGLE Version 4.11r2 Copyright (c) 1988-2004 CadSoft
+
+Electrical Rule Check for D:/My Documents/_Work/Eagle/Classic PIC Programmer/picprog.sch at 01.06.2004 18:33:39 
+
+WARNING: Sheet 1/1: unconnected Pin: IC4D O
+ERROR: Sheet 1/1: unconnected INPUT Pin: IC1 OSC1
+WARNING: Sheet 1/1: POWER Pin IC1 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC1 VDD connected to N$11
+WARNING: Sheet 1/1: POWER Pin IC4P VCC connected to +5V
+WARNING: Sheet 1/1: POWER Pin IC5 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC5 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC5 VDD connected to N$11
+WARNING: Sheet 1/1: POWER Pin IC6 VDD connected to N$11
+WARNING: Sheet 1/1: POWER Pin IC6 VSS connected to GND
+ERROR: Only INPUT Pins on net CLOCK
+ERROR: Only INPUT Pins on net DATA
+ERROR: Only INPUT Pins on net VDD
+ERROR: Only INPUT Pins on net VPP
+
+Board and schematic are consistent
+
+    5 errors
+    9 warnings

@@ -1,0 +1,11 @@
+EAGLE Version 4.11r2 Copyright (c) 1988-2004 CadSoft
+
+Electrical Rule Check for D:/My Documents/_Work/Eagle/PIC_Board/picboard.sch at 01.06.2004 18:30:41 
+
+WARNING: Sheet 1/1: POWER Pin IC1 VSS connected to GND
+WARNING: Sheet 1/1, Net VDD: missing Junction at (5.3 4.7)
+
+Board and schematic are consistent
+
+    0 errors
+    2 warnings
