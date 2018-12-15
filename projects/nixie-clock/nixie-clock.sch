@@ -20473,6 +20473,11 @@ Activation</text>
 <wire x1="13.97" y1="0" x2="13.97" y2="22.86" width="0.1524" layer="95"/>
 <text x="-17.272" y="22.352" size="1.778" layer="95" align="top-left">Decimal
 Point</text>
+<text x="86.36" y="-40.64" size="3.81" layer="95" align="top-left">Nixie Clock</text>
+<text x="86.36" y="-48.26" size="2.1844" layer="95" align="top-left">Copyright © 2018, Karim Hraibi
+Please visit:
+www.microfarad.de/nixie-clock
+www.github.com/microfarad-de/nixie-clock</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="66.04" y="-12.7" smashed="yes" rot="R180">
@@ -20613,8 +20618,8 @@ Point</text>
 <instance part="SUPPLY5" gate="0V" x="-104.14" y="15.24" smashed="yes">
 <attribute name="VALUE" x="-105.283" y="13.208" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="0V" x="91.44" y="-35.56" smashed="yes">
-<attribute name="VALUE" x="90.297" y="-37.592" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="0V" x="81.28" y="-35.56" smashed="yes">
+<attribute name="VALUE" x="80.137" y="-37.592" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="1" x="38.1" y="15.24" smashed="yes">
 <attribute name="VALUE" x="40.64" y="17.78" size="1.778" layer="96" rot="R180"/>
@@ -20713,7 +20718,7 @@ Point</text>
 <attribute name="VALUE" x="1.397" y="-2.032" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="-162.56" y="66.04" smashed="yes">
-<attribute name="VALUE" x="-172.72" y="76.2" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="-172.72" y="76.2" size="1.778" layer="96"/>
 <attribute name="NAME" x="-172.72" y="66.04" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="D1" gate="1" x="-157.48" y="73.66" smashed="yes">
@@ -21475,9 +21480,9 @@ Point</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="76.2" y1="-22.86" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-22.86" x2="81.28" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="0V" pin="0V"/>
-<wire x1="91.44" y1="-22.86" x2="91.44" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-22.86" x2="81.28" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="0V" pin="0V"/>
@@ -21786,9 +21791,8 @@ Point</text>
 <net name="N$21" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="TXO"/>
-<wire x1="76.2" y1="-30.48" x2="83.82" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-30.48" x2="83.82" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-58.42" x2="-58.42" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-30.48" x2="76.2" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-58.42" x2="-58.42" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="OK7" gate="G$1" pin="A"/>
 <wire x1="-58.42" y1="-58.42" x2="-58.42" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="33.02" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
@@ -21833,7 +21837,7 @@ Point</text>
 </net>
 <net name="N$27" class="0">
 <segment>
-<wire x1="-109.22" y1="-63.5" x2="96.52" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="-63.5" x2="83.82" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="C"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="-40.64" x2="-119.38" y2="-40.64" width="0.1524" layer="91"/>
@@ -21843,8 +21847,8 @@ Point</text>
 <pinref part="R23" gate="G$1" pin="1"/>
 <junction x="-119.38" y="-40.64"/>
 <pinref part="U3" gate="G$1" pin="*3"/>
-<wire x1="96.52" y1="-63.5" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-63.5" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -21866,10 +21870,10 @@ Point</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="-10.16" x2="-106.68" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-10.16" x2="-106.68" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-60.96" x2="86.36" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-60.96" x2="86.36" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-60.96" x2="78.74" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-60.96" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="RXI"/>
-<wire x1="86.36" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
