@@ -20430,7 +20430,6 @@ PHOTOCELL
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="56K"/>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N581*" device="" package3d_urn="urn:adsk.eagle:package:43421/1" technology="9-B"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="0V" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100K"/>
 </parts>
 <sheets>
 <sheet>
@@ -20478,6 +20477,10 @@ Point</text>
 Please visit:
 www.microfarad.de/nixie-clock
 www.github.com/microfarad-de/nixie-clock</text>
+<wire x1="-180.34" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="95"/>
+<wire x1="144.78" y1="96.52" x2="144.78" y2="-68.58" width="0.1524" layer="95"/>
+<wire x1="144.78" y1="-68.58" x2="-182.88" y2="-68.58" width="0.1524" layer="95"/>
+<wire x1="-182.88" y1="-68.58" x2="-180.34" y2="96.52" width="0.1524" layer="95"/>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="66.04" y="-12.7" smashed="yes" rot="R180">
@@ -20761,9 +20764,9 @@ www.github.com/microfarad-de/nixie-clock</text>
 <attribute name="NAME" x="-152.4" y="-5.08" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-152.4" y="-7.62" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R11" gate="G$1" x="-142.24" y="-10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="-138.43" y="-11.6586" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-138.43" y="-6.858" size="1.778" layer="96" rot="R180"/>
+<instance part="R11" gate="G$1" x="-144.78" y="-10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-140.97" y="-11.6586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-140.97" y="-6.858" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY9" gate="0V" x="-160.02" y="-17.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-161.417" y="-19.812" size="1.778" layer="96"/>
@@ -20860,10 +20863,6 @@ www.github.com/microfarad-de/nixie-clock</text>
 </instance>
 <instance part="SUPPLY13" gate="0V" x="2.54" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="1.397" y="-40.132" size="1.778" layer="96"/>
-</instance>
-<instance part="R12" gate="G$1" x="-152.4" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="-148.59" y="-16.7386" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-148.59" y="-11.938" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -21600,9 +21599,6 @@ www.github.com/microfarad-de/nixie-clock</text>
 <segment>
 <pinref part="T2" gate="G$1" pin="E"/>
 <pinref part="SUPPLY9" gate="0V" pin="0V"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="-15.24" x2="-160.02" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-160.02" y="-15.24"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -21868,7 +21864,7 @@ www.github.com/microfarad-de/nixie-clock</text>
 <net name="N$32" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="-137.16" y1="-10.16" x2="-106.68" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-10.16" x2="-106.68" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-10.16" x2="-106.68" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-60.96" x2="78.74" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-60.96" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
@@ -21996,10 +21992,7 @@ www.github.com/microfarad-de/nixie-clock</text>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="T2" gate="G$1" pin="B"/>
-<wire x1="-147.32" y1="-10.16" x2="-154.94" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="-15.24" x2="-147.32" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-147.32" y="-10.16"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-149.86" y1="-10.16" x2="-154.94" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
