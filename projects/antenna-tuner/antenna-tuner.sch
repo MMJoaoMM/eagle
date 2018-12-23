@@ -17727,9 +17727,9 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <instance part="GND4" gate="1" x="73.66" y="48.26" smashed="yes">
 <attribute name="VALUE" x="71.12" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="7.62" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.1026" y="60.706" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="5.3086" y="66.294" size="1.778" layer="96" rot="R270"/>
+<instance part="D4" gate="G$1" x="7.62" y="53.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.1026" y="58.166" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="5.3086" y="63.754" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D3" gate="G$1" x="0" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.905" y="63.754" size="1.778" layer="95" rot="R90"/>
@@ -17887,7 +17887,7 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <junction x="60.96" y="55.88"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="63.5" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="63.5" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <junction x="48.26" y="63.5"/>
 </segment>
 </net>
@@ -17975,7 +17975,7 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <wire x1="-43.18" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="7.62" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="53.34" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="7.62" y="45.72"/>
 </segment>
 </net>
