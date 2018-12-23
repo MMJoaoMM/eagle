@@ -17581,38 +17581,48 @@ SERVO</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="-129.54" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="95"/>
-<wire x1="88.9" y1="111.76" x2="88.9" y2="-2.54" width="0.1524" layer="95"/>
-<wire x1="88.9" y1="-2.54" x2="-129.54" y2="-2.54" width="0.1524" layer="95"/>
-<wire x1="-129.54" y1="-2.54" x2="-129.54" y2="111.76" width="0.1524" layer="95"/>
+<wire x1="-129.54" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="95"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="-2.54" width="0.1524" layer="95"/>
+<wire x1="83.82" y1="-2.54" x2="-129.54" y2="-2.54" width="0.1524" layer="95"/>
+<wire x1="-129.54" y1="-2.54" x2="-129.54" y2="119.38" width="0.1524" layer="95"/>
 <text x="-124.46" y="22.86" size="3.81" layer="95" align="top-left">Magnetic Loop Antenna Tuner</text>
-<text x="-124.46" y="15.24" size="2.1844" layer="95" align="top-left">Copyright (c) 2018 Karim Hraibi
+<text x="-124.46" y="15.24" size="2.1844" layer="95" align="top-left">Copyright © 2018 Karim Hraibi
 Please visit:
 www.microfarad.de/magnetic-loop
 www.github.com/microfarad-de/antenna-tuner</text>
 <text x="-5.588" y="20.32" size="1.778" layer="95">Fine-Tune</text>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="27.94" width="0.1524" layer="95"/>
+<wire x1="45.72" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="95"/>
+<wire x1="78.74" y1="27.94" x2="78.74" y2="78.74" width="0.1524" layer="95"/>
+<wire x1="78.74" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="95"/>
+<wire x1="-27.94" y1="114.3" x2="-27.94" y2="88.9" width="0.1524" layer="95"/>
+<wire x1="-27.94" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="95"/>
+<wire x1="78.74" y1="88.9" x2="78.74" y2="114.3" width="0.1524" layer="95"/>
+<wire x1="78.74" y1="114.3" x2="-27.94" y2="114.3" width="0.1524" layer="95"/>
+<text x="-26.924" y="111.76" size="1.778" layer="95">Battery Charger</text>
+<text x="46.482" y="76.2" size="1.778" layer="95">Soft Power Switch</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.48" y="12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="58.42" size="1.778" layer="96" rot="MR0" align="top-left"/>
 </instance>
-<instance part="P+1" gate="1" x="-12.7" y="104.14" smashed="yes">
-<attribute name="VALUE" x="-14.986" y="105.918" size="1.778" layer="96"/>
+<instance part="P+1" gate="1" x="5.08" y="109.22" smashed="yes">
+<attribute name="VALUE" x="2.794" y="110.998" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="81.28" y="71.12" smashed="yes">
-<attribute name="VALUE" x="78.74" y="71.882" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="73.66" y="71.12" smashed="yes">
+<attribute name="VALUE" x="71.12" y="71.882" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-27.94" y="88.9" smashed="yes">
-<attribute name="VALUE" x="-30.48" y="86.36" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-10.16" y="93.98" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="-5.08" y="99.06" smashed="yes">
-<attribute name="NAME" x="-8.89" y="100.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-4.318" y="100.584" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="12.7" y="104.14" smashed="yes">
+<attribute name="NAME" x="8.89" y="105.6386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.462" y="105.664" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="81.28" y="58.42" smashed="yes">
-<attribute name="NAME" x="83.439" y="59.1566" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="79.121" y="50.5206" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="G$1" x="73.66" y="58.42" smashed="yes">
+<attribute name="NAME" x="75.819" y="59.1566" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.501" y="50.5206" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D5" gate="G$1" x="12.7" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="14.224" y="50.0126" size="1.778" layer="95" rot="MR0"/>
@@ -17622,21 +17632,21 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="-1.905" y="68.834" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="3.429" y="68.834" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="G$1" x="53.34" y="40.64" smashed="yes">
-<attribute name="NAME" x="55.88" y="40.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="38.1" size="1.778" layer="96"/>
+<instance part="Q2" gate="G$1" x="58.42" y="40.64" smashed="yes">
+<attribute name="NAME" x="60.96" y="40.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="60.96" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="71.12" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.58" y="66.04" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.96" y="68.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="60.96" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="1" x="-25.4" y="99.06" smashed="yes">
-<attribute name="NAME" x="-22.86" y="99.5426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-22.86" y="96.7486" size="1.778" layer="96"/>
+<instance part="D1" gate="1" x="-7.62" y="104.14" smashed="yes">
+<attribute name="NAME" x="-5.08" y="104.6226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-5.08" y="101.8286" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="-33.02" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-43.18" y="101.6" size="1.778" layer="96"/>
-<attribute name="NAME" x="-43.18" y="91.44" size="1.778" layer="95"/>
+<instance part="J1" gate="G$1" x="-15.24" y="96.52" smashed="yes">
+<attribute name="VALUE" x="-25.4" y="106.68" size="1.778" layer="96"/>
+<attribute name="NAME" x="-25.4" y="96.52" size="1.778" layer="95"/>
 </instance>
 <instance part="J3" gate="JP1" x="-30.48" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="-25.4" y="55.372" size="1.778" layer="95" rot="R180"/>
@@ -17650,43 +17660,43 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="12.319" y="18.5166" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.001" y="7.3406" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="-5.08" y="93.98" smashed="yes">
-<attribute name="NAME" x="-8.89" y="95.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-4.318" y="95.504" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="12.7" y="99.06" smashed="yes">
+<attribute name="NAME" x="8.89" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.462" y="100.584" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="-5.08" y="88.9" smashed="yes">
-<attribute name="NAME" x="-8.89" y="90.3986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-4.318" y="90.424" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="12.7" y="93.98" smashed="yes">
+<attribute name="NAME" x="8.89" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.462" y="95.504" size="1.778" layer="96"/>
 </instance>
-<instance part="BT1" gate="G$1" x="15.24" y="99.06" smashed="yes">
-<attribute name="NAME" x="15.24" y="103.378" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="15.24" y="94.742" size="1.778" layer="96" align="top-center"/>
+<instance part="BT1" gate="G$1" x="33.02" y="104.14" smashed="yes">
+<attribute name="NAME" x="33.02" y="108.458" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="33.02" y="99.822" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="BT2" gate="G$1" x="25.4" y="99.06" smashed="yes">
-<attribute name="NAME" x="25.4" y="103.378" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="25.4" y="94.742" size="1.778" layer="96" align="top-center"/>
+<instance part="BT2" gate="G$1" x="43.18" y="104.14" smashed="yes">
+<attribute name="NAME" x="43.18" y="108.458" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="43.18" y="99.822" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="BT3" gate="G$1" x="35.56" y="99.06" smashed="yes">
-<attribute name="NAME" x="35.56" y="103.378" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="35.56" y="94.742" size="1.778" layer="96" align="top-center"/>
+<instance part="BT3" gate="G$1" x="53.34" y="104.14" smashed="yes">
+<attribute name="NAME" x="53.34" y="108.458" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="53.34" y="99.822" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="BT4" gate="G$1" x="45.72" y="99.06" smashed="yes">
-<attribute name="NAME" x="45.72" y="103.378" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="45.72" y="94.742" size="1.778" layer="96" align="top-center"/>
+<instance part="BT4" gate="G$1" x="63.5" y="104.14" smashed="yes">
+<attribute name="NAME" x="63.5" y="108.458" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="99.822" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="55.88" y="88.9" smashed="yes">
-<attribute name="VALUE" x="53.34" y="86.36" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="73.66" y="93.98" smashed="yes">
+<attribute name="VALUE" x="71.12" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="45.72" y="40.64" smashed="yes">
-<attribute name="NAME" x="41.91" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="41.91" y="37.084" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="50.8" y="40.64" smashed="yes">
+<attribute name="NAME" x="46.99" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="37.084" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="55.88" y="33.02" smashed="yes">
-<attribute name="VALUE" x="53.34" y="30.48" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="60.96" y="33.02" smashed="yes">
+<attribute name="VALUE" x="58.42" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="60.96" y="63.5" smashed="yes">
-<attribute name="NAME" x="57.15" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="57.15" y="59.944" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="53.34" y="63.5" smashed="yes">
+<attribute name="NAME" x="49.53" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.53" y="59.944" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="-43.18" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="-44.704" y="22.86" size="1.778" layer="95" rot="R90" align="bottom-center"/>
@@ -17718,8 +17728,8 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="-19.2786" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-14.224" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND4" gate="1" x="81.28" y="48.26" smashed="yes">
-<attribute name="VALUE" x="78.74" y="45.72" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="73.66" y="48.26" smashed="yes">
+<attribute name="VALUE" x="71.12" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="D4" gate="G$1" x="7.62" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.1026" y="60.706" size="1.778" layer="95" rot="R270"/>
@@ -17742,13 +17752,13 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="-13.97" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.59" y="62.23" size="1.778" layer="96"/>
 </instance>
-<instance part="M1" gate="G$1" x="-106.68" y="71.12" smashed="yes">
-<attribute name="NAME" x="-116.586" y="72.644" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-116.586" y="64.516" size="1.778" layer="95" align="top-left"/>
+<instance part="M1" gate="G$1" x="-104.14" y="71.12" smashed="yes">
+<attribute name="NAME" x="-114.046" y="72.644" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-114.046" y="64.516" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="L1" gate="G$1" x="-91.44" y="68.58" smashed="yes">
-<attribute name="NAME" x="-92.71" y="73.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-100.33" y="62.23" size="1.778" layer="96"/>
+<instance part="L1" gate="G$1" x="-88.9" y="68.58" smashed="yes">
+<attribute name="NAME" x="-90.17" y="73.66" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-97.79" y="62.23" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17758,39 +17768,39 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="PWR"/>
 <pinref part="D1" gate="1" pin="A"/>
-<wire x1="-30.48" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="104.14" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="D1" gate="1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="99.06" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="-12.7" y1="99.06" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="101.6" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-12.7" y="99.06"/>
+<wire x1="5.08" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="106.68" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
+<junction x="5.08" y="104.14"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="93.98" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="93.98" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="99.06" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="88.9" x2="-12.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="88.9" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-12.7" y="93.98"/>
+<wire x1="7.62" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="93.98" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<junction x="5.08" y="99.06"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-30.48" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="93.98" x2="-27.94" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="99.06" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="99.06" x2="-10.16" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BT4" gate="G$1" pin="-"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="50.8" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="99.06" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="104.14" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
@@ -17807,9 +17817,9 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
 <junction x="10.16" y="10.16"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="48.26" y1="10.16" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="10.16" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="-17.78" y1="17.78" x2="-17.78" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
@@ -17830,7 +17840,7 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="-"/>
-<wire x1="81.28" y1="50.8" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="50.8" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -17866,33 +17876,34 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="7"/>
+<wire x1="45.72" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="63.5" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G$1"/>
-<wire x1="55.88" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="55.88" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
-<wire x1="55.88" y1="45.72" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<junction x="55.88" y="55.88"/>
+<wire x1="60.96" y1="45.72" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<junction x="60.96" y="55.88"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="55.88" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="63.5" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
-<junction x="55.88" y="63.5"/>
+<junction x="48.26" y="63.5"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D$1"/>
-<wire x1="76.2" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="81.28" y1="63.5" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="63.5" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="81.28" y1="60.96" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
-<junction x="81.28" y="63.5"/>
+<wire x1="73.66" y1="60.96" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+<junction x="73.66" y="63.5"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="+"/>
@@ -17977,9 +17988,9 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="U1" gate="G$1" pin="*9"/>
-<wire x1="40.64" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="45.72" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 <junction x="0" y="68.58"/>
 <pinref part="L2" gate="G$1" pin="4"/>
 <wire x1="-5.08" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
@@ -18023,7 +18034,6 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <pinref part="J2" gate="JP1" pin="7"/>
 <wire x1="-71.12" y1="76.2" x2="-71.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="-83.82" y1="71.12" x2="-81.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="71.12" x2="-81.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="73.66" x2="-76.2" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-71.12" y="73.66"/>
@@ -18039,14 +18049,13 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <pinref part="J2" gate="JP1" pin="4"/>
 <wire x1="-71.12" y1="68.58" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="4"/>
-<wire x1="-83.82" y1="68.58" x2="-71.12" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="68.58" x2="-71.12" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-71.12" y="68.58"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="6"/>
-<wire x1="-83.82" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="66.04" x2="-81.28" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J2" gate="JP1" pin="1"/>
 <pinref part="J2" gate="JP1" pin="2"/>
@@ -18061,7 +18070,7 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <net name="N$21" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="V+"/>
-<wire x1="-104.14" y1="68.58" x2="-99.06" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="68.58" x2="-96.52" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -18069,13 +18078,13 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="5"/>
 <pinref part="M1" gate="G$1" pin="GND"/>
-<wire x1="-99.06" y1="66.04" x2="-104.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="66.04" x2="-101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="SIG"/>
-<wire x1="-104.14" y1="71.12" x2="-99.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="71.12" x2="-96.52" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -18083,30 +18092,30 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <segment>
 <pinref part="BT1" gate="G$1" pin="+"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="0" y1="99.06" x2="2.54" y2="99.06" width="0.1524" layer="91"/>
-<junction x="7.62" y="99.06"/>
-<label x="2.032" y="105.918" size="1.778" layer="95"/>
-<wire x1="2.54" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="99.06" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
-<junction x="7.62" y="104.14"/>
-<junction x="7.62" y="99.06"/>
+<wire x1="25.4" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="25.4" y="104.14"/>
+<label x="19.812" y="110.998" size="1.778" layer="95"/>
+<wire x1="20.32" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="104.14" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<junction x="25.4" y="109.22"/>
+<junction x="25.4" y="104.14"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="0" y1="93.98" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="88.9" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="0" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="93.98" x2="2.54" y2="99.06" width="0.1524" layer="91"/>
-<junction x="2.54" y="93.98"/>
-<junction x="2.54" y="99.06"/>
+<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="99.06" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="20.32" y="99.06"/>
+<junction x="20.32" y="104.14"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S$1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<junction x="66.04" y="63.5"/>
-<wire x1="66.04" y1="63.5" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<label x="61.214" y="72.39" size="1.778" layer="95"/>
-<junction x="66.04" y="71.12"/>
+<junction x="58.42" y="63.5"/>
+<wire x1="58.42" y1="63.5" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<label x="53.594" y="72.39" size="1.778" layer="95"/>
+<junction x="58.42" y="71.12"/>
 </segment>
 </net>
 </nets>
