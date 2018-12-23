@@ -2328,7 +2328,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.16" y="29.21" size="1.27" layer="25"/>
 <attribute name="VALUE" x="10.16" y="24.13" size="1.27" layer="27"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="ZDIO-5" package3d_urn="urn:adsk.eagle:package:43412/1" value="3.3v" x="-3.81" y="-3.81" smashed="yes">
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="ZDIO-5" package3d_urn="urn:adsk.eagle:package:43412/1" value="3.3V" x="-3.81" y="-3.81" smashed="yes">
 <attribute name="NAME" x="-6.4262" y="-1.9812" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-6.35" y="-6.858" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -2542,7 +2542,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-25.4" y="-295.91" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-27.686" y="-296.4688" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5819-B" x="-25.4" y="-300.99" smashed="yes">
+<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5819" x="-25.4" y="-300.99" smashed="yes">
 <attribute name="NAME" x="-27.432" y="-299.339" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-27.432" y="-303.911" size="1.27" layer="27" ratio="10"/>
 </element>
