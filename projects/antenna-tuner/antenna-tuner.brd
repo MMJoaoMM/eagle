@@ -2275,7 +2275,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-53.34" y="-66.04" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-56.4642" y="-69.2658" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF/25V tantal" x="-54.61" y="-74.93" smashed="yes">
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF/25V Tantal" x="-54.61" y="-74.93" smashed="yes">
 <attribute name="NAME" x="-51.943" y="-73.406" size="1.27" layer="25" ratio="10"/>
 <attribute name="SPICEPREFIX" value="C" x="-54.61" y="-74.93" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-51.943" y="-77.597" size="1.27" layer="27" ratio="10"/>

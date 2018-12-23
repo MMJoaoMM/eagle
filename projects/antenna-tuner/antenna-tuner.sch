@@ -17549,7 +17549,7 @@ SERVO</description>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="PTH_BREAD" package3d_urn="urn:adsk.eagle:package:38228/1" value="Power Jack"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RJ45-8" device="" package3d_urn="urn:adsk.eagle:package:38235/1" value="RJ45"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="1000uF/25V"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF/25V tantal"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF/25V Tantal"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="196"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="196"/>
 <part name="BT1" library="SparkFun-Batteries" library_urn="urn:adsk.eagle:library:508" deviceset="BATTERY" device="-AA" package3d_urn="urn:adsk.eagle:package:37211/1" value="1.2V"/>
@@ -17652,9 +17652,9 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="-77.597" y="63.9826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-86.233" y="55.3466" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="10.16" y="17.78" smashed="yes">
-<attribute name="NAME" x="12.319" y="18.5166" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="8.001" y="7.3406" size="1.778" layer="96" rot="R90"/>
+<instance part="C3" gate="G$1" x="12.7" y="17.78" smashed="yes">
+<attribute name="NAME" x="14.859" y="18.5166" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="10.541" y="6.8326" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="-5.08" y="93.98" smashed="yes">
 <attribute name="NAME" x="-8.89" y="95.4786" size="1.778" layer="95"/>
@@ -17714,11 +17714,11 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <attribute name="NAME" x="0.254" y="28.448" size="1.778" layer="95"/>
 <attribute name="VALUE" x="0" y="24.13" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="P+4" gate="1" x="10.16" y="30.48" smashed="yes">
-<attribute name="VALUE" x="7.62" y="31.242" size="1.778" layer="96"/>
+<instance part="P+4" gate="1" x="12.7" y="30.48" smashed="yes">
+<attribute name="VALUE" x="10.16" y="31.242" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="10.16" y="5.08" smashed="yes">
-<attribute name="VALUE" x="7.62" y="2.54" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="12.7" y="5.08" smashed="yes">
+<attribute name="VALUE" x="10.16" y="2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="-17.78" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-19.2786" y="26.67" size="1.778" layer="95" rot="R90"/>
@@ -17805,17 +17805,17 @@ www.github.com/microfarad-de/antenna-tuner</text>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="E"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="25.4" x2="-10.16" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="25.4" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
-<junction x="10.16" y="10.16"/>
+<wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
+<junction x="12.7" y="10.16"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="10.16" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="-17.78" y1="17.78" x2="-17.78" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
@@ -17903,14 +17903,14 @@ www.github.com/microfarad-de/antenna-tuner</text>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="10.16" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<junction x="10.16" y="25.4"/>
-<wire x1="10.16" y1="25.4" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<junction x="12.7" y="25.4"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="A"/>
-<wire x1="7.62" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
