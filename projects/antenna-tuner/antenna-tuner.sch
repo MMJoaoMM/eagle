@@ -17600,7 +17600,7 @@ www.github.com/microfarad-de/antenna-tuner</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="12.7" size="1.778" layer="95"/>
+<attribute name="NAME" x="20.32" y="12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="58.42" size="1.778" layer="96" rot="MR0" align="top-left"/>
 </instance>
 <instance part="P+1" gate="1" x="-12.7" y="104.14" smashed="yes">
