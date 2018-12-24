@@ -5488,10 +5488,11 @@ MOTOR</description>
 <wire x1="-5.08" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="95"/>
 <wire x1="93.98" y1="93.98" x2="93.98" y2="15.24" width="0.1524" layer="95"/>
 <wire x1="93.98" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="95"/>
-<text x="43.18" y="38.1" size="2.54" layer="95" align="top-left">Raspberry Pi Fan Control</text>
-<text x="43.18" y="33.02" size="1.778" layer="95" align="top-left">Please visit:
+<text x="43.18" y="40.64" size="2.54" layer="95" align="top-left">Raspberry Pi Fan Control</text>
+<text x="43.18" y="35.56" size="1.778" layer="95" align="top-left">Copyright © 2018, Karim Hraibi
+Please visit:
 www.microfarad.de
-www.githup.com/microfarad-de/nastia-server</text>
+www.github.com/microfarad-de/nastia-server</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="20.32" y="55.88" smashed="yes">

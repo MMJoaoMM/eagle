@@ -17588,7 +17588,7 @@ SERVO</description>
 <wire x1="-48.26" y1="-2.54" x2="-132.08" y2="-2.54" width="0.1524" layer="95"/>
 <wire x1="-132.08" y1="-2.54" x2="-132.08" y2="114.3" width="0.1524" layer="95"/>
 <text x="-127" y="22.86" size="3.81" layer="95" align="top-left">Magnetic Loop Antenna Tuner</text>
-<text x="-127" y="15.24" size="2.1844" layer="95" align="top-left">Copyright © 2018 Karim Hraibi
+<text x="-127" y="15.24" size="2.1844" layer="95" align="top-left">Copyright © 2018, Karim Hraibi
 Please visit:
 www.microfarad.de/magnetic-loop
 www.github.com/microfarad-de/antenna-tuner</text>
