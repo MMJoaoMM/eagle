@@ -20479,8 +20479,8 @@ www.microfarad.de/nixie-clock
 www.github.com/microfarad-de/nixie-clock</text>
 <wire x1="-180.34" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="95"/>
 <wire x1="144.78" y1="96.52" x2="144.78" y2="-68.58" width="0.1524" layer="95"/>
-<wire x1="144.78" y1="-68.58" x2="-182.88" y2="-68.58" width="0.1524" layer="95"/>
-<wire x1="-182.88" y1="-68.58" x2="-180.34" y2="96.52" width="0.1524" layer="95"/>
+<wire x1="144.78" y1="-68.58" x2="-180.34" y2="-68.58" width="0.1524" layer="95"/>
+<wire x1="-180.34" y1="-68.58" x2="-180.34" y2="96.52" width="0.1524" layer="95"/>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="66.04" y="-12.7" smashed="yes" rot="R180">
