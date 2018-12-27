@@ -1,0 +1,18 @@
+[Eagle]
+Version="08 04 01"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+
+[Win_1]
+Type="Control Panel"
+Loc="-8 -31 1191 608"
+State=2
+Number=0
+
+[Desktop]
+Screen="3520 1200"
+Window="Win_1"
