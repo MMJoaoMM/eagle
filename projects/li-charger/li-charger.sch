@@ -10010,8 +10010,8 @@ LED</description>
 <wire x1="-55.88" y1="-25.4" x2="78.74" y2="-25.4" width="0.1524" layer="95"/>
 <wire x1="78.74" y1="-25.4" x2="78.74" y2="104.14" width="0.1524" layer="95"/>
 <wire x1="78.74" y1="104.14" x2="-55.88" y2="104.14" width="0.1524" layer="95"/>
-<text x="-48.26" y="-7.62" size="3.81" layer="95" align="top-left">Lithium Battery Charger</text>
-<text x="17.78" y="-7.62" size="2.1844" layer="95" align="top-left">Copyright © 2018, Karim Hraibi
+<text x="-48.26" y="-7.62" size="3.81" layer="95" align="top-left">Lithium-Ion Battery Charger</text>
+<text x="20.32" y="-7.62" size="2.1844" layer="95" align="top-left">Copyright © 2018, Karim Hraibi
 Please visit:
 www.microfarad.de
 www.github.com/microfarad-de/li-charger</text>
