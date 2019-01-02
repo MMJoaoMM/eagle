@@ -8218,84 +8218,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-pnp" urn="urn:adsk.eagle:library:399">
-<description>&lt;b&gt;PNP Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TO92" urn="urn:adsk.eagle:footprint:29172/1" library_version="2">
-<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.1524" layer="21" curve="-111.099"/>
-<wire x1="0.7868" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.1"/>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.1524" layer="51" curve="-34.2936"/>
-<pad name="1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
-<text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:29211/2" type="model" library_version="2">
-<description>TO-92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PNP" urn="urn:adsk.eagle:symbol:29169/1" library_version="2">
-<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
-<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
-<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
-<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BC327" urn="urn:adsk.eagle:component:29285/2" prefix="Q" library_version="2">
-<description>&lt;b&gt;PNP Transistor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29211/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="transistor-npn" urn="urn:adsk.eagle:library:398">
 <description>&lt;b&gt;NPN Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -8351,30 +8273,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC337*" urn="urn:adsk.eagle:component:29030/3" prefix="Q" library_version="3">
-<description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28523/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-<technology name="-16"/>
-<technology name="-25"/>
-<technology name="-40"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BC547*" urn="urn:adsk.eagle:component:29031/3" prefix="Q" library_version="3">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
@@ -9972,9 +9870,7 @@ LED</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="10µF Tantal"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
-<part name="Q3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC327" device="" package3d_urn="urn:adsk.eagle:package:29211/2"/>
-<part name="Q4" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC337*" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K2"/>
 <part name="Q1" library="microfarad-de" deviceset="IRF5305" device=""/>
 <part name="U1" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
@@ -9985,15 +9881,12 @@ LED</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="10µF Tantal"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="10µF Tantal"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="100K"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
@@ -10036,14 +9929,6 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="49.3014" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.102" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q3" gate="G$1" x="50.8" y="53.34" smashed="yes">
-<attribute name="NAME" x="45.72" y="50.8" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="48.26" size="1.778" layer="96"/>
-</instance>
-<instance part="Q4" gate="G$1" x="35.56" y="48.26" smashed="yes">
-<attribute name="NAME" x="30.48" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="43.18" size="1.778" layer="96"/>
-</instance>
 <instance part="Q1" gate="G$1" x="55.88" y="76.2" smashed="yes">
 <attribute name="NAME" x="60.96" y="78.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="76.2" size="1.778" layer="96"/>
@@ -10052,13 +9937,13 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="-17.78" y="86.995" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="-15.24" y="83.82" size="1.778" layer="96" ratio="10"/>
 </instance>
-<instance part="J2" gate="G$1" x="68.58" y="58.42" smashed="yes">
-<attribute name="NAME" x="67.564" y="60.198" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="55.372" size="1.778" layer="96" font="vector"/>
+<instance part="J2" gate="G$1" x="68.58" y="48.26" smashed="yes">
+<attribute name="NAME" x="67.564" y="50.038" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.564" y="45.212" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="68.58" y="25.4" smashed="yes">
-<attribute name="NAME" x="67.564" y="27.178" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="22.352" size="1.778" layer="96" font="vector"/>
+<instance part="J3" gate="G$1" x="68.58" y="27.94" smashed="yes">
+<attribute name="NAME" x="67.564" y="29.718" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.564" y="24.892" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="-38.1" y="73.66" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="83.82" size="1.778" layer="96"/>
@@ -10081,9 +9966,9 @@ www.github.com/microfarad-de/li-charger</text>
 <instance part="P+3" gate="1" x="58.42" y="93.98" smashed="yes">
 <attribute name="VALUE" x="55.372" y="96.012" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="40.64" y="73.66" smashed="yes">
-<attribute name="NAME" x="36.83" y="75.1586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="36.83" y="70.358" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="38.1" y="73.66" smashed="yes">
+<attribute name="NAME" x="34.29" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="70.358" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="50.8" y="66.04" smashed="yes">
 <attribute name="VALUE" x="48.895" y="63.5" size="1.778" layer="96"/>
@@ -10103,27 +9988,16 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="7.62" y="18.161" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="2.286" y="9.271" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="43.18" y="53.34" smashed="yes">
-<attribute name="NAME" x="39.37" y="54.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="50.038" size="1.778" layer="96"/>
-</instance>
-<instance part="GND3" gate="1" x="38.1" y="40.64" smashed="yes">
-<attribute name="VALUE" x="36.195" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="R4" gate="G$1" x="27.94" y="48.26" smashed="yes">
-<attribute name="NAME" x="24.13" y="49.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.13" y="44.958" size="1.778" layer="96"/>
-</instance>
-<instance part="R5" gate="G$1" x="33.02" y="30.48" smashed="yes">
-<attribute name="NAME" x="29.21" y="31.9786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.21" y="27.178" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="16.002" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND7" gate="1" x="12.7" y="0" smashed="yes">
 <attribute name="VALUE" x="10.795" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="43.18" y="25.4" smashed="yes">
-<attribute name="NAME" x="39.37" y="26.8986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="22.098" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="30.48" y="27.94" smashed="yes">
+<attribute name="NAME" x="26.67" y="29.4386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.67" y="24.638" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="-7.62" y="10.16" smashed="yes">
 <attribute name="NAME" x="-11.049" y="5.588" size="1.778" layer="95" rot="R90"/>
@@ -10179,10 +10053,6 @@ www.github.com/microfarad-de/li-charger</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="0V"/>
-</segment>
-<segment>
-<pinref part="Q4" gate="G$1" pin="E"/>
-<pinref part="GND3" gate="1" pin="0V"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -10254,50 +10124,25 @@ www.github.com/microfarad-de/li-charger</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="22.86" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<junction x="58.42" y="25.4"/>
-<label x="70.866" y="24.384" size="1.778" layer="95"/>
+<wire x1="35.56" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<junction x="58.42" y="27.94"/>
+<label x="70.866" y="26.924" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B+" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D$1"/>
-<wire x1="58.42" y1="71.12" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="71.12" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="E"/>
-<wire x1="53.34" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
-<junction x="58.42" y="58.42"/>
-<label x="70.866" y="57.658" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="Q3" gate="G$1" pin="B"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="Q4" gate="G$1" pin="B"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="48.26" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<junction x="58.42" y="48.26"/>
+<label x="70.866" y="47.498" size="1.778" layer="95"/>
+<wire x1="58.42" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="48.26" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -10307,7 +10152,7 @@ www.github.com/microfarad-de/li-charger</text>
 <wire x1="-12.7" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="20.32" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <junction x="5.08" y="30.48"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -10318,23 +10163,12 @@ www.github.com/microfarad-de/li-charger</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="73.66" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="55.88" x2="-48.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="73.66" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="55.88" x2="-48.26" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="55.88" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="*9"/>
 <wire x1="-48.26" y1="17.78" x2="-35.56" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="48.26" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="53.34" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="8"/>
-<wire x1="-45.72" y1="20.32" x2="-35.56" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10354,19 +10188,19 @@ www.github.com/microfarad-de/li-charger</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="A0"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="25.4" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<junction x="22.86" y="25.4"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
+<junction x="22.86" y="27.94"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
+<wire x1="43.18" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
