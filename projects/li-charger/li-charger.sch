@@ -18770,7 +18770,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <parts>
 <part name="U2" library="microfarad-de" deviceset="ARDUINO_PRO_MINI" device="_TS" value="Arduino Pro Mini"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+29V"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+19V"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="330nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K2"/>
 <part name="Q1" library="microfarad-de" deviceset="IRF5305" device=""/>
@@ -18781,7 +18781,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="100nF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+29V"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+19V"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
@@ -18965,15 +18965,6 @@ www.github.com/microfarad-de/li-charger</text>
 <wire x1="58.42" y1="88.9" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <junction x="58.42" y="88.9"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="PWR"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="-35.56" y1="81.28" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="-33.02" y1="81.28" x2="-30.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="91.44" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-33.02" y="81.28"/>
 </segment>
 </net>
 <net name="0V" class="0">
@@ -19198,6 +19189,17 @@ www.github.com/microfarad-de/li-charger</text>
 <net name="N$7" class="0">
 <segment>
 <wire x1="63.5" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+19V" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PWR"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="-35.56" y1="81.28" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+12V"/>
+<wire x1="-33.02" y1="81.28" x2="-30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="91.44" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-33.02" y="81.28"/>
 </segment>
 </net>
 </nets>
