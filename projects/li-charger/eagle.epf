@@ -436,6 +436,10 @@ UsedLibrary="/Users/Karim/BTSync/Projects/Eagle/libraries/microfarad-de.lbr"
 UsedLibrary="/Users/Karim/BTSync/Projects/Eagle/libraries/russian-nixies.lbr"
 
 [Win_1]
+Type="Control Panel"
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="li-charger.sch"
@@ -480,10 +484,6 @@ PadsSameType=0
 Layer=91
 Views=" 1: -45.077 -26.1966 95.1338 108.731"
 Sheet="1"
-
-[Win_2]
-Type="Control Panel"
-Number=0
 
 [Desktop]
 Screen="1920 1200"

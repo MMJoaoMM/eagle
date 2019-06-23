@@ -18778,10 +18778,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="U1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="05" value="7805"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100µF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100nF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100nF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0617/22" package3d_urn="urn:adsk.eagle:package:23577/1" value="1R/3W"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BY251" device="" package3d_urn="urn:adsk.eagle:package:43365/1" value="BY255"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="100nF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -18908,14 +18908,6 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="-17.907" y="76.6826" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-21.209" y="66.2686" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="5.08" y="17.78" smashed="yes">
-<attribute name="NAME" x="2.667" y="11.4046" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="2.667" y="15.9766" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C5" gate="G$1" x="22.86" y="17.78" smashed="yes">
-<attribute name="NAME" x="20.701" y="11.4046" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="20.447" y="15.9766" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R9" gate="G$1" x="63.5" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.0174" y="20.828" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="66.802" y="13.97" size="1.778" layer="96" rot="R90"/>
@@ -18923,6 +18915,14 @@ www.github.com/microfarad-de/li-charger</text>
 <instance part="D2" gate="1" x="58.42" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.9026" y="60.96" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="56.1086" y="60.96" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C4" gate="G$1" x="5.08" y="17.78" smashed="yes">
+<attribute name="NAME" x="4.318" y="18.161" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="4.318" y="8.255" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="22.86" y="17.78" smashed="yes">
+<attribute name="NAME" x="22.098" y="18.161" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="22.098" y="8.255" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -18971,8 +18971,8 @@ www.github.com/microfarad-de/li-charger</text>
 <junction x="12.7" y="5.08"/>
 <wire x1="22.86" y1="5.08" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="2.54" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="-"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -19058,7 +19058,7 @@ www.github.com/microfarad-de/li-charger</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <junction x="12.7" y="30.48"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -19094,7 +19094,7 @@ www.github.com/microfarad-de/li-charger</text>
 <wire x1="22.86" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="20.32" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <junction x="22.86" y="27.94"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
