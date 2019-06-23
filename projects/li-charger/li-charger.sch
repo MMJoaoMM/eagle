@@ -18752,7 +18752,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device="" value="+19.5V"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-040X050" package3d_urn="urn:adsk.eagle:package:23634/1" value="330nF"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="470R"/>
 <part name="Q1" library="microfarad-de" deviceset="IRF5305" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
@@ -18774,12 +18774,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="Q2" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC547*" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2K2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="220R"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="U1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="05" value="7805"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100µF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10µF Tantal"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10µF Tantal"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100nF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="100nF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0617/22" package3d_urn="urn:adsk.eagle:package:23577/1" value="1R/3W"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BY251" device="" package3d_urn="urn:adsk.eagle:package:43365/1" value="BY255"/>
 </parts>
@@ -18793,7 +18793,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <text x="-48.26" y="-7.62" size="3.81" layer="95" align="top-left">Lithium-Ion Battery Charger</text>
 <text x="20.32" y="-7.62" size="2.1844" layer="95" align="top-left">Copyright © 2019, Karim Hraibi
 Please visit:
-www.microfarad.de
+www.microfarad.de/li-charger
 www.github.com/microfarad-de/li-charger</text>
 <text x="56.642" y="13.97" size="1.778" layer="95" rot="R90">Shunt</text>
 </plain>
@@ -18860,7 +18860,7 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="VALUE" x="56.515" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="12.7" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.2014" y="13.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="10.9474" y="14.224" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R90">
@@ -18909,12 +18909,12 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="VALUE" x="-21.209" y="66.2686" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="5.08" y="17.78" smashed="yes">
-<attribute name="NAME" x="7.493" y="18.2626" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="2.921" y="7.8486" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="2.667" y="11.4046" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="2.667" y="15.9766" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C5" gate="G$1" x="22.86" y="17.78" smashed="yes">
-<attribute name="NAME" x="25.273" y="18.2626" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="20.701" y="7.8486" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="20.701" y="11.4046" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="20.447" y="15.9766" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="63.5" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.0174" y="20.828" size="1.778" layer="95" rot="R90"/>
