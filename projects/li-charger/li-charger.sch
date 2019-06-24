@@ -18795,7 +18795,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 Please visit:
 www.microfarad.de/li-charger
 www.github.com/microfarad-de/li-charger</text>
-<text x="56.642" y="13.97" size="1.778" layer="95" rot="R90">Shunt</text>
+<text x="56.642" y="16.51" size="1.778" layer="95" rot="R90">Shunt</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-25.4" y="27.94" smashed="yes">
@@ -18824,17 +18824,17 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="67.564" y="50.038" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.564" y="45.212" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="68.58" y="27.94" smashed="yes">
-<attribute name="NAME" x="67.564" y="29.718" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="24.892" size="1.778" layer="96" font="vector"/>
+<instance part="J3" gate="G$1" x="68.58" y="30.48" smashed="yes">
+<attribute name="NAME" x="67.564" y="32.258" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.564" y="27.432" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="-38.1" y="73.66" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="-48.26" y="73.66" size="1.778" layer="95"/>
 </instance>
-<instance part="R8" gate="G$1" x="58.42" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="57.6834" y="20.574" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="61.722" y="13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="58.42" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.6834" y="23.114" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C3" gate="G$1" x="12.7" y="76.2" smashed="yes">
 <attribute name="NAME" x="15.24" y="76.581" size="1.778" layer="95" rot="R90"/>
@@ -18870,9 +18870,9 @@ www.github.com/microfarad-de/li-charger</text>
 <instance part="GND6" gate="1" x="12.7" y="0" smashed="yes">
 <attribute name="VALUE" x="10.795" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="30.48" y="27.94" smashed="yes">
-<attribute name="NAME" x="26.67" y="29.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="26.67" y="24.638" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="33.02" y="30.48" smashed="yes">
+<attribute name="NAME" x="29.21" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.21" y="27.178" size="1.778" layer="96"/>
 </instance>
 <instance part="D3" gate="G$1" x="-7.62" y="10.16" smashed="yes">
 <attribute name="NAME" x="-11.049" y="5.588" size="1.778" layer="95" rot="R90"/>
@@ -18908,9 +18908,9 @@ www.github.com/microfarad-de/li-charger</text>
 <attribute name="NAME" x="-17.907" y="76.6826" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-21.209" y="66.2686" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="63.5" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="63.0174" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.802" y="13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="63.5" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.0174" y="23.368" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="66.802" y="16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D2" gate="1" x="58.42" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.9026" y="60.96" size="1.778" layer="95" rot="R270"/>
@@ -18952,8 +18952,8 @@ www.github.com/microfarad-de/li-charger</text>
 <wire x1="58.42" y1="2.54" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="10.16" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="12.7" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="10.16" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <junction x="58.42" y="10.16"/>
 </segment>
 <segment>
@@ -19017,22 +19017,6 @@ www.github.com/microfarad-de/li-charger</text>
 <wire x1="-7.62" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B-" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<label x="70.866" y="26.924" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<junction x="58.42" y="27.94"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="22.86" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<junction x="63.5" y="27.94"/>
-</segment>
-</net>
 <net name="B+" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -19048,17 +19032,17 @@ www.github.com/microfarad-de/li-charger</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="A1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="20.32" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
-<junction x="5.08" y="30.48"/>
+<wire x1="5.08" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<junction x="12.7" y="30.48"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="12.7" y="27.94"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="A0"/>
+<wire x1="5.08" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="5.08" y="27.94"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -19089,12 +19073,12 @@ www.github.com/microfarad-de/li-charger</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A0"/>
-<wire x1="22.86" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<junction x="22.86" y="27.94"/>
+<wire x1="27.94" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="A1"/>
+<wire x1="22.86" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<junction x="22.86" y="30.48"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -19134,9 +19118,20 @@ www.github.com/microfarad-de/li-charger</text>
 <junction x="-20.32" y="81.28"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="B-" class="0">
 <segment>
-<wire x1="63.5" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="70.866" y="29.464" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<junction x="58.42" y="30.48"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="25.4" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<junction x="63.5" y="30.48"/>
 </segment>
 </net>
 <net name="+19V" class="0">
